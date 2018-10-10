@@ -1,0 +1,12 @@
+// Import Vuetify styling
+@require '~vuetify/src/stylus/main.styl'
+
+//Added by me
+
+//Global Page transition animation on <transition /> element
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
